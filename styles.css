@@ -2,5 +2,28 @@ body {
   font-family: system-ui, sans-serif;
   margin: 0;
   padding: 2rem;
-  background: #f6f8fa;
+  background: #ffffff; /* lighter background for better contrast */
+  color: #1a1a1a; /* darker text for readability */
+  line-height: 1.6; /* improve readability with line spacing */
 }
+
+/* Ensure links and buttons have visible focus outlines */
+:focus-visible {
+  outline: 3px solid #ffbf47; /* clear yellow outline for keyboard users */
+  outline-offset: 2px;
+}
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #ffffff; /* lighter background for better contrast */
+  color: #1a1a1a; /* darker text for readability */
+  line-height: 1.6; /* improve readability with line spacing */
+}
+
+/* Ensure links and buttons have visible focus outlines */
+:focus-visible {
+  outline: 3px solid #ffbf47; /* clear yellow outline for keyboard users */
+  outline-offset: 2px;
+}
+
